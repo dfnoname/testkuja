@@ -1,6 +1,6 @@
 <?php
 
-echo ' inodes '.print_r(fileinode("index.php"));
+echo ' inodes '.print_r(fileinode("index.php", FALSE));
 echo '<br>======================<br>';
 $bytes = disk_free_space("."); 
     $si_prefix = array( 'B', 'KB', 'MB', 'GB', 'TB', 'EB', 'ZB', 'YB' );
